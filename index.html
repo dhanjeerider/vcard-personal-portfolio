@@ -1,60 +1,155 @@
 <!DOCTYPE html>
 <html lang="en">
 
+ 
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>vCard - Personal Portfolio</title>
+  <title>Dhanjee Rider</title>
 
-  <!--
-    - favicon
-  -->
-  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
 
-  <!--
-    - custom css link
-  -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <!-- fa vicon -->
+  <link rel="shortcut icon" href="https://www.dktechnozone.in/favicon.ico?m=1" type="image/x-icon"/>
 
-  <!--
-    - google font link
-  -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <!--- custom css link -->
+  <link rel="stylesheet" href="https://codewithsadee.github.io/vcard-personal-portfolio/assets/css/style.css"/>
+
+ <style>
+ :root { 
+
+ 
+ 
+  --jet: hsl(0, 0%, 32%); 
+  
+  
+   --white-1: #fff; 
+  
+  --white-2: #ffffff; 
+  --fw-300: 500;
+  --fw-400: 500;
+  --fw-500: 500;
+  --fw-600: 900;
+  
+   --light-gray: white; 
+
+} 
+
+.navbar{ 
+     background: #242433;
+  box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.5),
+    inset 5px 5px 20px rgba(255, 255, 255, 0.2),
+    inset -5px -5px 15px rgba(0, 0, 0, 0.75);
+  border-radius: 25px;
+  animation: hue-rotate 3s linear infinite;
+-webkit-animation: hue-rotate 3s linear infinite;
+       
+         }
+  
+  @-webkit-keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes hue-rotate {
+  from {
+    -webkit-filter: hue-rotate(0);
+    -moz-filter: hue-rotate(0);
+    -ms-filter: hue-rotate(0);
+    filter: hue-rotate(0);
+  }
+  to {
+    -webkit-filter: hue-rotate(360deg);
+    -moz-filter: hue-rotate(360deg);
+    -ms-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+  
+.social-item .social-link{
+  color:white;}
+  
+      .navbar-item button:hover{background: green;  padding: 3px; border:  .5px solid gold;border-radius: 5px;background: linear-gradient(45deg, #0ce39a, #69007f, #fc0987) ;
+ box-shadow: 0px 0px 10px #ce00ff73; 
+color: white;  
+  transition: .3s;
+  }
+  .service-icon-box img {
+      width: 80px; 
+  }
+  .clients-item img {
+  
+  filter: grayscale(0);
+  aspects-ratio:4/3;
+  filter: drop-shadow(0px 0px 10px cyan);
+ 
+  }
+  .clients-item img:hover {filter: saturate(4);}
+    </style>
+ 
+  <!-- - google font link -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com"/>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+  
+  
+  <link rel="stylesheet"href="https://site-assets.fontawesome.com/releases/v6.2.1/css/all.css"/>
+<style>
+    .testimonials-avatar-box img{
+        border-radius: 50px;
+  padding: 5px;
+    }
+    .avatar-box{
+   border-radius: 50px;
+  padding: 3px;  
+  border: 1px solid gold;
+    }
+  .social-list{display: flex; justify-content: center; color: white; }
+
+.service-item{
+    background: linear-gradient(45deg,#8098ff,#00eaff);
+}
+
+ </style>
 </head>
 
 <body>
 
-  <!--
-    - #MAIN
-  -->
+  <!-- #MAIN -->
 
   <main>
 
-    <!--
-      - #SIDEBAR
-    -->
+    <!-- #SIDEBAR -->
 
     <aside class="sidebar" data-sidebar>
 
       <div class="sidebar-info">
 
         <figure class="avatar-box">
-          <img src="./assets/images/my-avatar.png" alt="Richard hanrick" width="80">
+          <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEizBV9dKJnTHLeDE4OPTCk6Lpc1lMlVqAAv4nvKO2Rkf4pkX0CcFHEjUGiuA7Lyziyod2rrPylNdBDq-VuVB-_2poJzVV-nXJobVtrzdxjJS7OOAIHMdvWW73RYkdSBfH--tDjHaVlRL7gaAct2zboTbCo9LKaYVmJrLdGjwmtWDsID6jZnw7uPDvnE/s720/dhanjee%20Rider.webp" alt="Dhanjee Rider" width="80">
         </figure>
 
         <div class="info-content">
-          <h1 class="name" title="Richard hanrick">Richard hanrick</h1>
+          <h1 class="name" title="Dhanjee Rider">Dhanjee Rider <i class="fa-solid fa-badge-check" style="color: #00abff;"></i></h1>
 
-          <p class="title">Web developer</p>
+          <p class="title">🌐 Web developer</p>
         </div>
 
         <button class="info_more-btn" data-sidebar-btn>
           <span>Show Contacts</span>
 
-          <ion-icon name="chevron-down"></ion-icon>
+          <i class="fa-solid fa-chevron-down fa-bounce" style="color: yellow;"></i>
         </button>
 
       </div>
@@ -74,7 +169,7 @@
             <div class="contact-info">
               <p class="contact-title">Email</p>
 
-              <a href="mailto:richard@example.com" class="contact-link">richard@example.com</a>
+              <a href="mailto:dkkr5558@gmail.com" class="contact-link">dkkr5558@gmail.com</a>
             </div>
 
           </li>
@@ -88,7 +183,7 @@
             <div class="contact-info">
               <p class="contact-title">Phone</p>
 
-              <a href="tel:+12133522795" class="contact-link">+1 (213) 352-2795</a>
+              <a href="#" class="contact-link">+917759060810</a>
             </div>
 
           </li>
@@ -100,9 +195,9 @@
             </div>
 
             <div class="contact-info">
-              <p class="contact-title">Birthday</p>
+              <p class="contact-title">Developer from</p>
 
-              <time datetime="1982-06-23">June 23, 1982</time>
+              <time datetime="2002:01:26">26 jan 2018</time>
             </div>
 
           </li>
@@ -116,7 +211,7 @@
             <div class="contact-info">
               <p class="contact-title">Location</p>
 
-              <address>Sacramento, California, USA</address>
+              <address>Bihar, India 🇮🇳</address>
             </div>
 
           </li>
@@ -128,23 +223,38 @@
         <ul class="social-list">
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-facebook"></ion-icon>
+            <a href="https://facebook.com/dhanjeerider" class="social-link">
+      <ion-icon name="logo-facebook"></ion-icon>       
+            </a>
+          </li>
+           <li class="social-item">
+            <a href="https://wa.me/+917759060810" class="social-link">
+      <i class="fa-brands fa-whatsapp"></i>     
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
-              <ion-icon name="logo-twitter"></ion-icon>
+            <a href="https://telegram.me/dhanjeerider" class="social-link">
+          <i class="fa-brands fa-telegram"></i>
             </a>
           </li>
 
           <li class="social-item">
-            <a href="#" class="social-link">
+            <a href="https://instagram.com/dhanjeerider1/" class="social-link">
               <ion-icon name="logo-instagram"></ion-icon>
             </a>
           </li>
-
+<li class="social-item">
+            <a href="https://www.dktechnozone.in" class="social-link">
+         <i class="fa-regular fa-regular fa-globe"></i>
+            </a>
+          </li>
+         
+          <li class="social-item">
+            <a href="https://linktr.ee/dhanjeerider" class="social-link">
+        <i class="fa-solid fa-link"></i>
+            </a>
+          </li>
         </ul>
 
       </div>
@@ -155,15 +265,11 @@
 
 
 
-    <!--
-      - #main-content
-    -->
+    <!--#main-content -->
 
     <div class="main-content">
 
-      <!--
-        - #NAVBAR
-      -->
+      <!--#NAVBAR-->
 
       <nav class="navbar">
 
@@ -195,11 +301,7 @@
 
 
 
-
-
-      <!--
-        - #ABOUT
-      -->
+      <!-- - #ABOUT-->
 
       <article class="about  active" data-page="about">
 
@@ -209,24 +311,17 @@
 
         <section class="about-text">
           <p>
-            I'm Creative Director and UI/UX Designer from Sydney, Australia, working in web development and print media.
-            I enjoy
-            turning complex problems into simple, beautiful and intuitive designs.
+           Hii i am dhanjee rider a multitude of model like website designer, wp designer, blogger theme pro level customization & Coder 🧑‍💻.
           </p>
 
           <p>
-            My job is to build your website so that it is functional and user-friendly but at the same time attractive.
-            Moreover, I
-            add personal touch to your product and make sure that is eye-catching and easy to use. My aim is to bring
-            across your
-            message and identity in the most creative way. I created web design for many famous brand companies.
+            My work to build a website which are fully functional, fastest and user-friendly and attractive 😍.
+        I created 100+ design for our happy costumers and friends.
           </p>
         </section>
 
 
-        <!--
-          - service
-        -->
+        <!--- service -->
 
         <section class="service">
 
@@ -237,15 +332,14 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-design.svg
-                " alt="design icon" width="40">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhziYPNs3groew5hWbDuMXLqtjdf0TKydiGigc9WS8dfHpXcSl5LYVklWJSZ9CgQ_qqNqSHV_jt-qs7B1WyDSXvSJGOGVMEljTrnwS9hQPZTmYHZCjojYo_YARCLp5KtRwxF507yv6rx5y84r8W-LtU7s_aFpAlhN4CVXbnBMjDtVaW4hULVWB6cB00rG8/s450/web-development-4551251-3767561.png " alt="design icon" width="40">
               </div>
 
               <div class="service-content-box">
                 <h4 class="h4 service-item-title">Web design</h4>
 
                 <p class="service-item-text">
-                  The most modern and high-quality design made at a professional level.
+                 I can make most beautiful design for you the your website is fully working and eye 👀 catching <a style="color: gold;" href="https://www.blogger.com/profile/03746629658212628684">See Demo websites 👁️</a>
                 </p>
               </div>
 
@@ -254,15 +348,29 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-dev.svg" alt="Web development icon" width="40">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiD5VFUjasw9slhJebpnABo1mS59wSsf8YkgkniUiMU7o8HlHKLJ1GruVFSwcIryf9wc9zdALaRB-DzGQhz89d0PTZAkGJJg1Ji_pOcipZscJc6TSYSuzKYVXwi5T03Shofyz5a1FYQs0xix7SW7KTQIAjdXfvkdxubo3sG7iiTDKIEL5N3dqaZEIr8Gr4/s450/web-development-4620450-3833097.png" alt="Web development icon" width="40">
               </div>
 
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                <h4 class="h4 service-item-title">Theme customisation</h4>
 
                 <p class="service-item-text">
-                  High-quality development of sites at the professional level.
-                </p>
+                 i can create same to same or copy website with your provided website link in some case success level arround 70-90% (:</p>
+              </div>
+
+            </li>
+
+         <li class="service-item">
+
+          <div class="service-icon-box">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh2RTYZStQlKBC8edGbSX0MFArz5iX63wug75bvfR9Iq9shwCHFnbx9C4YcCYk22EIFEd-Gow0KSV5JutLhLllbJYGjWHKu7bn-hik1ZwF4gLhRBcXuMcTioO1zrQEcoiiE_H7vVoNWJVThg3q19RHG8ri2pNR7dIzcOiHKh5KBadSlo5Xpxh89V1p1mwc/s450/flash-discount-4019048-3337428.png" alt="mobile app icon" width="40">
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">super fast pagespeed</h4>
+
+                <p class="service-item-text">
+I can enhance your website's speed, boosting it from 20 to 90+ across all pages. Achieving optimal loading speed is crucial for improving your website's ranking.</p>
               </div>
 
             </li>
@@ -270,31 +378,13 @@
             <li class="service-item">
 
               <div class="service-icon-box">
-                <img src="./assets/images/icon-app.svg" alt="mobile app icon" width="40">
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgG9tQSYVZJYgGvXrzejGuPfBxd9zq30aD266Aw1z0UipS9P6TxkNNjYjeV5TbRJ8a3np5Z0wt_LvP-_JpkI15PKnXIX5yW6v_MgBqUFMVSOGq1xW7Nyv9k7NNcyTyoNIbWtG9dFzCTE7jxj2Ks8bbJ5M7AG2bxY5O3PFxmPBAd8Tr-GzM9KgmME8oYUTk/s450/web-development-5402852-4521465.png" alt="camera icon" width="40">
               </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Mobile apps</h4>
+          <div class="service-content-box">
+                <h4 class="h4 service-item-title">Custom code and problem</h4>
 
                 <p class="service-item-text">
-                  Professional development of applications for iOS and Android.
-                </p>
-              </div>
-
-            </li>
-
-            <li class="service-item">
-
-              <div class="service-icon-box">
-                <img src="./assets/images/icon-photo.svg" alt="camera icon" width="40">
-              </div>
-
-              <div class="service-content-box">
-                <h4 class="h4 service-item-title">Photography</h4>
-
-                <p class="service-item-text">
-                  I make high-quality photos of any category at a professional level.
-                </p>
+            I have the ability to generate custom widget code tailored to your specific needs and requirements. Additionally, I can address various website issues, including SEO optimization, speed enhancements, and troubleshooting other errors and problems.      </p>
               </div>
 
             </li>
@@ -304,13 +394,11 @@
         </section>
 
 
-        <!--
-          - testimonials
-        -->
+        <!-- testimonials  -->
 
         <section class="testimonials">
 
-          <h3 class="h3 testimonials-title">Testimonials</h3>
+          <h3 class="h3 testimonials-title">Organisation</h3>
 
           <ul class="testimonials-list has-scrollbar">
 
@@ -318,98 +406,27 @@
               <div class="content-card" data-testimonials-item>
 
                 <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="60" data-testimonials-avatar>
+                  <img src="https://cdn.jsdelivr.net/gh/dhanjeerider/dhanjeerider@main/aa97m-g7sa9.svg" alt="Daniel lewis" width="60"  data-testimonials-avatar>
                 </figure>
 
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Daniel lewis</h4>
+                <h4 class="h4 testimonials-item-title" data-testimonials-title>Dk technozone</h4>
 
                 <div class="testimonials-text" data-testimonials-text>
                   <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
+                    DK technozone in my 2nd website that provides article and codes about Blogger templete coded gadgets and social tips and tricks you can also find the most useful social media tips and much secrets 😉 visit one time when you are free 💟 www.dktechnozone.in </p>
                 </div>
 
               </div>
             </li>
 
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-2.png" alt="Jessica miller" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Jessica miller</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-3.png" alt="Emily evans" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Emily evans</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
-
-            <li class="testimonials-item">
-              <div class="content-card" data-testimonials-item>
-
-                <figure class="testimonials-avatar-box">
-                  <img src="./assets/images/avatar-4.png" alt="Henry william" width="60" data-testimonials-avatar>
-                </figure>
-
-                <h4 class="h4 testimonials-item-title" data-testimonials-title>Henry william</h4>
-
-                <div class="testimonials-text" data-testimonials-text>
-                  <p>
-                    Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
-                    lot of experience
-                    and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
-                    consectetur adipiscing
-                    elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
-                  </p>
-                </div>
-
-              </div>
-            </li>
+         
 
           </ul>
 
         </section>
 
 
-        <!--
-          - testimonials modal
-        -->
+        <!--- testimonials modal -->
 
         <div class="modal-container" data-modal-container>
 
@@ -423,10 +440,10 @@
 
             <div class="modal-img-wrapper">
               <figure class="modal-avatar-box">
-                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+                <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
               </figure>
 
-              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+              <img src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/images/icon-quote.svg" alt="quote icon">
             </div>
 
             <div class="modal-content">
@@ -451,52 +468,147 @@
 
         </div>
 
+<div>
+ <!--<h3 class="h3 clients-title">websites designed by me -</h3> -->
+ 
+ <!-- <div class="sp">
+  <summary data-hide="Hide all" data-show="Show all">
+    my design<span id="prevArrow">previous ◀</span><span id="nextArrow">next ▶</span>
+  </summary>
+  <div class="puArticle">
+    <iframe class="puIframe" id="demoIframe" src="https://clrcngs.blogspot.com/" title="Demo - Plus UI"></iframe>
+  </div>
+  <div class="toC" id="toContent"></div>
+</div>-->
 
-        <!--
-          - clients
-        -->
+ <!--<style>
+ 
+  .puIframe {
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    
+    margin: 20px 0;
+  }
+
+  @media screen and (max-width: 640px) {
+    .puIframe {
+      border-radius: 4px;
+    }
+  }
+
+  .drkM .puIframe {
+    border-color: #ccc;
+  }
+
+  .sp {
+    border-radius: 8px;
+    background: #333;
+    padding: 15px 5px;
+    
+  }
+
+  .sp summary {
+    font-weight: bold;
+    color: white;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #arrow {
+    cursor: pointer;
+  }
+   #nextArrow:hover{
+      background: #ff1f00;
+      padding: 4px 8px;
+      border-radius: 6px;
+      transition: 4s;
+      
+      
+  }
+
+</style>-->
+
+ <!--<script>
+  const websites = [
+  "https://www.hiphopnow.in","https://clrcngs.blogspot.com","https://shdjej.blogspot.com","https://jetprov11.blogspot.com","https://grdtnblog.blogspot.com","https://griduitheme.blogspot.com","https://2domesud.blogspot.com","https://7rhdesign.blogspot.com","https://texhdjrkr.blogspot.com","https://advanceuithen.blogspot.com","https://mediu-ui17.blogspot.com","https://vmaglt.blogspot.com","https://clrui.blogspot.com","https://actrers-biography.blogspot.com","https://eueieh.blogspot.com","https://rhfsr.blogspot.com","https://fletro-amp.jagodesain.com","https://finkuber-templateify.blogspot.com","https://infastio.blogspot.com","https://igniplex.blogspot.com","https://faddalunga.blogspot.com","https://dkchek1.blogspot.com","https://plusuiteme.blogspot.com","https://exprothikhad.blogspot.com/","https://pikimags.blogspot.com","https://7rhdesign.blogspot.com","https://dhanjeerider.blogspot.com","https://www.dktechnozone.in","https://nssjakajj.blogspot.com","https://72282736sjsjej.blogspot.com","https://pikimags.blogspot.com","http://dk-apk.blogspot.com","https://dk-apk.blogspot.com","https://apk-ada.blogspot.com","https://www.techyleaf.in/?m=1","https://pikimags.blogspot.com","https://pikimags.blogspot.com","https://pikimags.blogspot.com","https://pikimags.blogspot.com",
+  ];
+
+  let currentWebsiteIndex = 0;
+  const demoIframe = document.getElementById('demoIframe');
+  const prevArrow = document.getElementById('prevArrow');
+  const nextArrow = document.getElementById('nextArrow');
+
+  prevArrow.addEventListener('click', () => {
+    currentWebsiteIndex = (currentWebsiteIndex - 1 + websites.length) % websites.length;
+    demoIframe.src = websites[currentWebsiteIndex];
+  });
+
+  nextArrow.addEventListener('click', () => {
+    currentWebsiteIndex = (currentWebsiteIndex + 1) % websites.length;
+    demoIframe.src = websites[currentWebsiteIndex];
+  });
+</script>-->
+
+ 
+ 
+ <section class="clients">
+     
+ 
+ 
+   <section class="clients">  
+    
+    
+</div>
+        <!-- clients-->
 
         <section class="clients">
 
-          <h3 class="h3 clients-title">Clients</h3>
+          <h3 class="h3 clients-title">Clients websites</h3>
 
           <ul class="clients-list has-scrollbar">
 
+         <li class="clients-item">
+              <a href="https://theblazetimes.in">
+                <img src="https://theblazetimes.in/wp-content/uploads/2024/02/WhatsApp-Image-2024-01-16-at-17.20.06_c7c1814e.png" alt="client logo">
+              </a>
+            </li>
+                <li class="clients-item">
+              <a href="https://hacktivistvanguard.in/">
+                <img src="https://hacktivistvanguard.in/wp-content/uploads/2023/12/20231227_080835.png-2048x480.webp" alt="client logo">
+              </a>
+            </li>
+             <li class="clients-item">
+              <a href="https://www.dktechnozone.in/">
+                <img src="https://cdn.jsdelivr.net/gh/Dhanjeerider1/code/akl3a-mcwrt.svg" alt="client logo">
+              </a>
+            </li>
+
+          
+
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-1-color.png" alt="client logo">
+              <a href="https://niveshguruji2023.blogspot.com/?m=1">
+                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEjjIoWs_tmoi8i_XcXsGuCQIr2ld4RdW2_aNI4Z2LXeu6M_ICrTnWLDT851v7dwyo_t0zqWh8ATPKoEUw1eq0bQo0CAtnBMR28x-x2F9hl68apuKRTt0ZVI5M82n0FuR326PHVXCqOk44KDoPWJ0TqUGMM-CwyH9vZQpooLrElDRDIxAIbdrfq2bGCHVm8=s150" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-2-color.png" alt="client logo">
+              <a href="https://www.smartguruji.in">
+                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEj3-zLFh0kEWg-yHCbknV_W-zhPZdQ0qdYRPLWDfYx_oWZWiQw4oqankLm2TOXsZ0G_2OBjHq916Lqqux0JmBxORk-_fzUr_wzuO0Q5x9Go5_eiqiCB5x9XHRTo0b7Rg-aTSRR71TT-VOopjCSeQqr3zkAaSgJoWSQ5C_ZcCYXzG9pMajZByyxfySiWa85g=w200" alt="client logo">
               </a>
             </li>
 
             <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-3-color.png" alt="client logo">
+              <a href="https://faddalunga.blogspot.com">
+                <img src="https://blogger.googleusercontent.com/img/a/AVvXsEiv_sIV6R4JN3pwzjMzt0CNpK0q7pMZCY0RSc4UyJx2l8GYGlvwcUBNj-Jvn3JlSX5AQCE4G8Qddsid6GWdSStBhCBZcUjwIjP47WhLCCvf5jkTQ5Imn95zZBVGoOY6RbdxYmdlNpcri-E9I6H0-1tqYYqROm6klnNXKQ346BmNEuYSxL3DiHKtGrr0WL8=s660" alt="client logo">
               </a>
             </li>
 
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-4-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-5-color.png" alt="client logo">
-              </a>
-            </li>
-
-            <li class="clients-item">
-              <a href="#">
-                <img src="./assets/images/logo-6-color.png" alt="client logo">
-              </a>
-            </li>
+           
 
           </ul>
 
@@ -508,9 +620,7 @@
 
 
 
-      <!--
-        - #RESUME
-      -->
+      <!--- #RESUME-->
 
       <article class="resume" data-page="resume">
 
@@ -532,41 +642,38 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">University school of the arts</h4>
+              <h4 class="h4 timeline-item-title">10th</h4>
 
-              <span>2007 — 2008</span>
+              <span>2017 — 20018</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                81% Marks with 1st roll number 
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">New york academy of art</h4>
+              <h4 class="h4 timeline-item-title">10+2 science 🧪 </h4>
 
-              <span>2006 — 2007</span>
+              <span>2018 — 2020</span>
 
               <p class="timeline-text">
-                Ratione voluptatem sequi nesciunt, facere quisquams facere menda ossimus, omnis voluptas assumenda est
-                omnis..
+                +2 with agriculture sream 
+                87% marks.
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">High school of art and design</h4>
+              <h4 class="h4 timeline-item-title">Bsc agriculture </h4>
 
-              <span>2002 — 2004</span>
+              <span>2020 — 2024</span>
 
               <p class="timeline-text">
-                Duis aute irure dolor in reprehenderit in voluptate, quila voluptas mag odit aut fugit, sed consequuntur
-                magni dolores
-                eos.
+                
+        Currently studying here 😑 bsc ag
               </p>
 
             </li>
@@ -589,28 +696,24 @@
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Creative director</h4>
+              <h4 class="h4 timeline-item-title">Android geek 🤓</h4>
 
               <span>2015 — Present</span>
 
               <p class="timeline-text">
-                Nemo enim ipsam voluptatem blanditiis praesentium voluptum delenit atque corrupti, quos dolores et qvuas
-                molestias
-                exceptur.
+              Certainly, feel free to share any mobile phone-related issues or questions. I can assist you, considering my previous experience in sharing Android tips, tricks, and hacking background 🗿
               </p>
 
             </li>
 
             <li class="timeline-item">
 
-              <h4 class="h4 timeline-item-title">Art director</h4>
+              <h4 class="h4 timeline-item-title">Grafix Designer</h4>
 
-              <span>2013 — 2015</span>
+              <span>2018— 2023</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+               From 2020 i have created 2000+ grafix, thumbnail, banners and projects 🤒
               </p>
 
             </li>
@@ -619,12 +722,10 @@
 
               <h4 class="h4 timeline-item-title">Web designer</h4>
 
-              <span>2010 — 2013</span>
+              <span>2018 — 2033</span>
 
               <p class="timeline-text">
-                Nemo enims ipsam voluptatem, blanditiis praesentium voluptum delenit atque corrupti, quos dolores et
-                quas molestias
-                exceptur.
+                i can make all types of blogger website 🙂 bicouse I have all Blogger template collection i mean world's best themes 
               </p>
 
             </li>
@@ -698,14 +799,7 @@
       </article>
 
 
-
-
-
-      <!--
-        - #PORTFOLIO
-      -->
-
-      <article class="portfolio" data-page="portfolio">
+ <article class="portfolio" data-page="portfolio">
 
         <header>
           <h2 class="h2 article-title">Portfolio</h2>
@@ -770,35 +864,35 @@
           <ul class="project-list">
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://www.dktechnozone.in/2023/06/vega-movies-blogger-template_82.html">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-1.jpg" alt="finance" loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhS69iu43KG2vushE7mOrS9GIV67C68cfcIPh0BEZhIS7ZaOlv871iyA76BUs9JIR7WrS60YAgrLlhd9KeH8D17XfQgGeUFr2SY_EzXvTI1ylsyV40crbMfx6qIF22ffwyHBEJ9jRBRgUI-E7ULS708KSKXMnayaIWYaA8Ync0XhgWbFOMS40k9PDx1UeE/s1100/Vega%20movies.png" alt="finance" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Finance</h3>
+                <h3 class="project-title">Vega movie customization</h3>
 
-                <p class="project-category">Web development</p>
-
+             <p class="project-category">Web development</p>
+               
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://www.dktechnozone.in/p/jettheme-redesigned.html">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-2.png" alt="orizon" loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxwGuaZ3WJ9ByyCDQFOEbACNEH1yiZHrGHxoxv8ak_fBQsSdASCZ0m6TU9BWtAAxbtGtXqDtEZApx92rFNBKRyeDvussgZvC8w4udHimpAeiwCQU3VRUji_48ICdFKiuky38_aIaggl3ajWV5sHODF194bRWMJLNY1Fj2kL3vvrk0po0fSRm5U8SdJP5Q/s1280/JET%20ALL%20IN%20ONE%20(1).png" alt="orizon" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Orizon</h3>
+                <h3 class="project-title">jettheme Redesigned blogger template</h3>
 
                 <p class="project-category">Web development</p>
 
@@ -806,17 +900,17 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <a href="https://www.dktechnozone.in/2022/12/jet-theme-redesigned-blogger-template_4.html">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-3.jpg" alt="fundo" loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgWjXC1cDp_mHKNwF2dMqtTffbizh6vNoJ8SEM5HQFg1oUGBUdwwdqUG42OLFACeslu6uD6Po69WNRa4G2HxoCnqKpnPNuybLMU1QEVlFfct-LnmgeeFTVoAB9i_HsVN4PWkTzjK5JzLVt17a9HAAGq-bWh7Xr2OZbIf_kEZH7CEDvkRqQKeDB9OrpcA34/s1280/jet%20gradient%20ui.png" alt="fundo" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Fundo</h3>
+                <h3 class="project-title">jettheme pro version 2.0</h3>
 
                 <p class="project-category">Web design</p>
 
@@ -824,53 +918,53 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+              <a href="https://www.dktechnozone.in/2023/04/median-ui-17-redesigned-premium-blogger_2.html">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-4.png" alt="brawlhalla" loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjPPBTUpYQPRNZMxKhqc6z6W2DbxVI7XOfw_BdJdgxd74y86KSUu5olB4JzK2PxSTErJONDFz-ziR6a0MbZW7QENcPpnpZiTrBnTw4D-VjMsMOEjPJnhvM6-8KUxRfLIKNdo4bb-xu5Jy9zd05pMwAqjk_NBq1kE4vDS8OCkIyzE2lTiNLEEOkbV6u1C68/s1280/Mediun%20ui%201.7.png" alt="medium ui 1.7" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Brawlhalla</h3>
+                <h3 class="project-title">Mediun ui 1.7 customized</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Redesigned theme</p>
 
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <a href="https://www.dktechnozone.in/2023/09/the-movies-premium-blogger-template-for_64.html">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-5.png" alt="dsm." loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtBDyNEkhpasWxCZ0g3R5W49gKVRtDvwT_XsoosShKjPzLktACjNRENaIKXCHwSyZDNb-punm826cLC5cCQkFiRz0_y7uAx3vn7yJObEYiryI8_wTuOn3NCWx8xz31bV04zDNsvrH1hVyXcelqS5HMoqSVkb1Cpdx3zcixznSPaQ0phCNSNP6JfHMz9z4/s1100/only%20Dkchel%20blog.png" alt="the movie template" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">DSM.</h3>
+                <h3 class="project-title">them movies Redesigned theme</h3>
 
-                <p class="project-category">Web design</p>
+                <p class="project-category">Redesigned</p>
 
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web design">
-              <a href="#">
+              <a href="https://www.dktechnozone.in/2023/11/icloudice-redesigned-blogger-template_67.html">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-6.png" alt="metaspark" loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi-PEe7E3p7dTyul_1MBSJ0HY9lB0x2yCL15DrVY1SKzZcsVhXa205RcLr9x8lYEr55NDt80j4vSXos87jPlyKugxBEn1MFlCwwdKfTJzIm-i2AkVsfI65U6j9sVbSFA3bcF8oD8K8XB7TtLfAPhFPyR9pzLMo7NW-KPEjlA_IH4J8rADGDs4EL-59PQ_E/s1280/Icloudice%20rdsn%20_%20Icloud%20Ice%20-%20Kumpulan%20bot%20telegram%20lengkap.png" alt="ICloudice.com" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">MetaSpark</h3>
+                <h3 class="project-title">ICloudice.com theme clone copy</h3>
 
                 <p class="project-category">Web design</p>
 
@@ -878,17 +972,17 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://www.dktechnozone.in/2024/01/pure-apk-redesigned-template.html">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-7.png" alt="summary" loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjjSPvszp4rdl62kHlX32mqCGVFNabp-_-ZSswsvgh6qI8lKTFIziBQC9HvdfhqkI11yMSggjM36hidn5CIALFe3_XSE35QpaiBm6UqYmYpARNJTHG4F_T408nRhr9NLzKLkVQW8xaSWdpWIge5k405ZVh8Gfiesbii7q5Y6oDAnlvQYUlPWldIBtBxh2U/s1024/Apk%20adda.jpeg" alt="summary" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Summary</h3>
+                <h3 class="project-title">Apk adda blogger template</h3>
 
                 <p class="project-category">Web development</p>
 
@@ -896,35 +990,35 @@
             </li>
 
             <li class="project-item  active" data-filter-item data-category="applications">
-              <a href="#">
+              <a href="https://www.dktechnozone.in/2024/02/vega-blog-responsive-blogger-template.html">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-8.jpg" alt="task manager" loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEimcAKD1QtsFyMAT9RN3FtiVohmebYJuzhhLrYV3iOfUC85Pp4TJHt1rWQMF7OML_HTaE4nEP7eZYyADRSFGey5bt3D7UCR78117Bzca_91QAbYscCTTHPj91vhPqZ8i1X_lMZMEvS7jJBqFfWGuWQlxpNxg2pI98ERlDNA6KGZef2lraAMewYaQ6DXUmY/s3840/%20Vega%20Blog%20Blogger%20Template.webp" alt="ultron" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Task Manager</h3>
+                <h3 class="project-title">vega blog blogger template</h3>
 
-                <p class="project-category">Applications</p>
+                <p class="project-category">Redesigned</p>
 
               </a>
             </li>
 
             <li class="project-item  active" data-filter-item data-category="web development">
-              <a href="#">
+              <a href="https://www.dktechnozone.in/2023/09/viomagz-igneal-redesigned-blogger_25.html">
 
                 <figure class="project-img">
                   <div class="project-item-icon-box">
                     <ion-icon name="eye-outline"></ion-icon>
                   </div>
 
-                  <img src="./assets/images/project-9.png" alt="arrival" loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj5w9Iw8aIMJc5pqCE6Z4H6-jFfacE3DxShIOHkUUzkuZRUG4ytkRvzH6SwlZ_JMRfM1_kUBEModiASXAknMjnS7F6kpU5cIuemuETcfKaVT1N531KvM723uLhcnzJkZzBA-NJvef-vsE058uD9a6fz9wKEVx8YxVzi8cWXQSk8W9vH1iYEkDeYpKF_MLI/w652-h366-c-rw/VIOMAGZ+IGNIPLEX%20Redesigned%20blogger%20template.webp" alt="arrival" loading="lazy">
                 </figure>
 
-                <h3 class="project-title">Arrival</h3>
+                <h3 class="project-title">VIOMAGZ+ IGNEAL Combined template</h3>
 
                 <p class="project-category">Web development</p>
 
@@ -941,9 +1035,8 @@
 
 
 
-      <!--
-        - #BLOG
-      -->
+
+      <!--#BLOG-->
 
       <article class="blog" data-page="blog">
 
@@ -956,10 +1049,10 @@
           <ul class="blog-posts-list">
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://www.dktechnozone.in/2023/02/cheapest-website-design-service-for_26.html">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-1.jpg" alt="Design conferences in 2022" loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg9yhgmBI5JzGfk8L4zIxRl_iS_ivnJBp3k6ejcdDt4Fi-f5MXeBk4anocBBVUf9-d3Q5x-L_nC9b_HXxaHqm44w_bGN2xceHH56LNlHytfiFBXvII6BmnmvvugmsIqZyW5UprdzjVbuLxSufnLSUxDxXuFPssR-RH1BM14Pg4sU1uvQFFEhMQZiO9Y/s1280/website%20design%20service%20by%20dk%20technozone.webp" alt="Design conferences in 2022" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -972,22 +1065,17 @@
                     <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design conferences in 2022</h3>
-
-                  <p class="blog-text">
-                    Veritatis et quasi architecto beatae vitae dicta sunt, explicabo.
-                  </p>
-
+                  <h3 class="h3 blog-item-title">Cheapest Website Design Service For you</h3>
                 </div>
 
               </a>
             </li>
 
             <li class="blog-post-item">
-              <a href="#">
+              <a href="https://www.dktechnozone.in/2023/05/5000-lightroom-preset-zip-free-download_78.html">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-2.jpg" alt="Best fonts every designer" loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhOPm8q8smKVzY5hRSk04Kns61VvWbt4DMC2_O95oos36viRWT0o_ZQR4JX16Ui61KQdwXVJYd4pgSYXQ209CdATdqDNyWubFRdk-2L5dFA8kVOJogN0b_I58MDpnPqo4Ui7FIaR_8tZIWhOEFENR92n41d4oCeNEf-e-zsn8SzIPBlVNVuhhuujZzn/s1920/5000%20Lightroom%20Preset%20zip%20file%20.webp" alt="Best fonts every designer" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1000,22 +1088,19 @@
                     <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Best fonts every designer</h3>
+                  <h3 class="h3 blog-item-title">5000 Lightroom Preset Zip Free Download</h3>
 
-                  <p class="blog-text">
-                    Sed ut perspiciatis, nam libero tempore, cum soluta nobis est eligendi.
-                  </p>
-
+                  
                 </div>
 
               </a>
             </li>
 
-            <li class="blog-post-item">
-              <a href="#">
+ <li class="blog-post-item">
+              <a href="https://cutt.ly/o629JG5">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-3.jpg" alt="Design digest #80" loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjDeKZwZGb39RuAZdJOf_rtcz5EonmF8M3T5mCflBM5Dc7JHa10zd0kaDFn8bLZFftstgA06xvzV77SBtjgd9wsq9JA9AIUAF_qvEoROx84_L7Wycm1Yhmx9zwCvK9HHw4VvtQymW_xPytpIEGXkmbw24WmlueUnCMfINKBCAdy347emHkRE83iubPZ/s1920/world's%20top%2020%20premium%20blogger%20template.webp" alt="Best fonts every designer" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1028,22 +1113,20 @@
                     <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">Design digest #80</h3>
+                  <h3 class="h3 blog-item-title">World's Top 20 Premium Blogger Template Free Download</h3>
 
-                  <p class="blog-text">
-                    Excepteur sint occaecat cupidatat no proident, quis nostrum exercitationem ullam corporis suscipit.
-                  </p>
-
+                  
                 </div>
 
               </a>
             </li>
-
-            <li class="blog-post-item">
-              <a href="#">
+            
+            
+             <li class="blog-post-item">
+              <a href="https://www.dktechnozone.in/2023/02/canva-pro-team-lifetime-invite-link-oct_26.html">
 
                 <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-4.jpg" alt="UI interactions of the week" loading="lazy">
+                  <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj8KxXfcI9rdhoA39KTC5QbhRIEHCbZVyKyG7gPXcM_BcxZZrrMVbPBVDt3KJJNEzglV1_5e6CNm7vHayeSsrh_0ppAcx0AB1ctJRuXVaN952I8KVhAPvgc_GyVYQB23Rae-89dMbfePaRZMHcbb3-n-FE6OCYKTBotzEuY6u56iNKpx63kt6m3TVwHj8k/w652-h366-c-rw/canva%20pro%20invite%20link%20.webp" alt="Best fonts every designer" loading="lazy">
                 </figure>
 
                 <div class="blog-content">
@@ -1056,72 +1139,15 @@
                     <time datetime="2022-02-23">Fab 23, 2022</time>
                   </div>
 
-                  <h3 class="h3 blog-item-title">UI interactions of the week</h3>
+                  <h3 class="h3 blog-item-title">Canva Pro Team Lifetime Invite Link for you {Paid 300}</h3>
 
-                  <p class="blog-text">
-                    Enim ad minim veniam, consectetur adipiscing elit, quis nostrud exercitation ullamco laboris nisi.
-                  </p>
-
+                  
                 </div>
 
               </a>
             </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-5.jpg" alt="The forgotten art of spacing" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">The forgotten art of spacing</h3>
-
-                  <p class="blog-text">
-                    Maxime placeat, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
-
-            <li class="blog-post-item">
-              <a href="#">
-
-                <figure class="blog-banner-box">
-                  <img src="./assets/images/blog-6.jpg" alt="Design digest #79" loading="lazy">
-                </figure>
-
-                <div class="blog-content">
-
-                  <div class="blog-meta">
-                    <p class="blog-category">Design</p>
-
-                    <span class="dot"></span>
-
-                    <time datetime="2022-02-23">Fab 23, 2022</time>
-                  </div>
-
-                  <h3 class="h3 blog-item-title">Design digest #79</h3>
-
-                  <p class="blog-text">
-                    Optio cumque nihil impedit uo minus quod maxime placeat, velit esse cillum.
-                  </p>
-
-                </div>
-
-              </a>
-            </li>
+            
+            
 
           </ul>
 
@@ -1133,9 +1159,7 @@
 
 
 
-      <!--
-        - #CONTACT
-      -->
+      <!--#CONTACT-->
 
       <article class="contact" data-page="contact">
 
@@ -1143,19 +1167,12 @@
           <h2 class="h2 article-title">Contact</h2>
         </header>
 
-        <section class="mapbox" data-mapbox>
-          <figure>
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d199666.5651251294!2d-121.58334177520186!3d38.56165006739519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x809ac672b28397f9%3A0x921f6aaa74197fdb!2sSacramento%2C%20CA%2C%20USA!5e0!3m2!1sen!2sbd!4v1647608789441!5m2!1sen!2sbd"
-              width="400" height="300" loading="lazy"></iframe>
-          </figure>
-        </section>
-
+      
         <section class="contact-form">
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="#" class="form" data-form>
+          <form action="mailto:dkkr5558@gmail.com" class="form" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -1173,6 +1190,45 @@
           </form>
 
         </section>
+ <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://facebook.com/dhanjeerider" class="social-link">
+      <ion-icon name="logo-facebook"></ion-icon>       
+            </a>
+          </li>
+           <li class="social-item">
+            <a href="https://wa.me/c/917759060810" class="social-link">
+      <i class="fa-brands fa-whatsapp" style="color: #ccc;"></i>     
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://telegram.me/dhanjeerider" class="social-link">
+          <i class="fa-brands fa-telegram" style="color: #b7b7b7;"></i>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://instagram.com/dhanjeerider1/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+<li class="social-item">
+            <a href="https://bit.ly/3p42jHz" class="social-link">
+         <i class="fa-regular fa-regular fa-globe" style="color: #a3a3a3;"></i>
+            </a>
+          </li>
+         
+          <li class="social-item">
+            <a href="https://linktr.ee/dhanjeerider" class="social-link">
+        <i class="fa-solid fa-circle-dollar-to-slot" style="color: #949494;"></i>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+  
 
       </article>
 
@@ -1185,17 +1241,17 @@
 
 
 
-  <!--
-    - custom js link
-  -->
-  <script src="./assets/js/script.js"></script>
+  <!-- custom js link-->
+  <script src="https://codewithsadee.github.io/vcard-personal-portfolio/assets/js/script.js"></script>
 
-  <!--
-    - ionicon link
-  -->
+  <!-- ionicon link= -->
   <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
+  
+    
+    
+    
 </body>
 
 </html>
